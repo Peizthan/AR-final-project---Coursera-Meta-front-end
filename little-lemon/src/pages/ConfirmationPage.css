@@ -1,0 +1,106 @@
+/* ===== Confirmation Page ===== */
+.confirmation {
+  padding: 4rem 1.5rem;
+  background-color: #edefee;
+  min-height: 60vh;
+}
+
+.confirmation__inner {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.confirmation__icon {
+  font-size: 4rem;
+}
+
+.confirmation__title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #333;
+  margin: 0;
+}
+
+.confirmation__subtitle {
+  color: #555;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+/* Summary card */
+.confirmation__card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  width: 100%;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  text-align: left;
+}
+
+.confirmation__card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #495e57;
+  margin: 0 0 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.confirmation__details {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.confirmation__row {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+
+.confirmation__row dt {
+  font-weight: 600;
+  color: #555;
+  white-space: nowrap;
+}
+
+.confirmation__row dd {
+  margin: 0;
+  color: #333;
+  text-align: right;
+}
+
+.confirmation__notice {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.confirmation__link {
+  color: #495e57;
+  font-weight: 600;
+}
+
+.confirmation__btn {
+  display: inline-block;
+  background-color: #f4ce14;
+  color: #333;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.85rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.confirmation__btn:hover {
+  background-color: #e6c010;
+}

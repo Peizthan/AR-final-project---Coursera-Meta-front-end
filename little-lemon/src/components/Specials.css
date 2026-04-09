@@ -1,0 +1,126 @@
+/* ===== Specials ===== */
+.specials {
+  padding: 4rem 1.5rem;
+  background-color: #fff;
+}
+
+.specials__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.specials__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.specials__title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #333;
+  margin: 0;
+}
+
+.specials__menu-btn {
+  display: inline-block;
+  background-color: #f4ce14;
+  color: #333;
+  font-weight: 700;
+  padding: 0.65rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.specials__menu-btn:hover {
+  background-color: #e6c010;
+}
+
+/* Card grid */
+.specials__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.specials__card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  background-color: #edefee;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.specials__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.specials__card-image {
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  font-size: 5rem;
+}
+
+.specials__card-body {
+  padding: 1rem 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.specials__card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+.specials__card-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  color: #333;
+}
+
+.specials__card-price {
+  color: #ee9972;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.specials__card-desc {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.6;
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.specials__order-link {
+  align-self: flex-start;
+  text-decoration: none;
+  color: #495e57;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border-bottom: 2px solid #495e57;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.specials__order-link:hover {
+  color: #f4ce14;
+  border-color: #f4ce14;
+}
