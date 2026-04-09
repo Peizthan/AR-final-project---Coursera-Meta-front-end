@@ -1,0 +1,147 @@
+/* ===== Booking Page ===== */
+.booking {
+  padding: 3rem 1.5rem 4rem;
+  background-color: #fff;
+}
+
+.booking__inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.booking__title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+.booking__subtitle {
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Form */
+.booking__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.booking__fieldset {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+
+.booking__legend {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #495e57;
+  padding: 0 0.4rem;
+}
+
+.booking__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 1rem;
+}
+
+.booking__field:first-of-type {
+  margin-top: 0.5rem;
+}
+
+.booking__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 480px) {
+  .booking__row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.booking__label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.booking__required {
+  color: #c0392b;
+}
+
+.booking__optional {
+  font-weight: 400;
+  color: #777;
+  font-size: 0.85rem;
+}
+
+.booking__input,
+.booking__select,
+.booking__textarea {
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #333;
+  background-color: #fff;
+  transition: border-color 0.2s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.booking__input:focus,
+.booking__select:focus,
+.booking__textarea:focus {
+  outline: none;
+  border-color: #495e57;
+  box-shadow: 0 0 0 3px rgba(73, 94, 87, 0.15);
+}
+
+.booking__input--error {
+  border-color: #c0392b;
+}
+
+.booking__textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.booking__error {
+  color: #c0392b;
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.booking__required-note {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0;
+}
+
+.booking__submit {
+  background-color: #f4ce14;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 0.9rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  align-self: flex-start;
+}
+
+.booking__submit:hover {
+  background-color: #e6c010;
+  transform: translateY(-1px);
+}
+
+.booking__submit:active {
+  transform: translateY(0);
+}
